@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "require 'autotest-notifyosd'\ninclude Autotest::NotifyOsd" >> ~/.autotest
+echo "require 'sentientmonkey-autotest-notifyosd'\ninclude Autotest::NotifyOsd" >> ~/.autotest

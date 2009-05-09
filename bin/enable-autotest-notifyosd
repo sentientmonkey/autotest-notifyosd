@@ -1,2 +1,8 @@
-#!/bin/sh
-echo "require 'sentientmonkey-autotest-notifyosd'\ninclude Autotest::NotifyOsd" >> ~/.autotest
+#!/usr/bin/env ruby
+
+File.open(File.expand_path('~/.autotest'), 'a') do |f| 
+  f.puts <<-EOF
+require 'sentientmonkey-autotest-notifyosd'
+include Autotest::NotifyOsd
+EOF
+end

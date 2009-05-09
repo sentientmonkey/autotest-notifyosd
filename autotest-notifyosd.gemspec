@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{autotest-notifyosd}
-  s.version = "1.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Windsor"]
@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "autotest-notifyosd.gemspec",
      "bin/enable-autotest-notifyosd",
      "lib/autotest-notifyosd.rb",
      "lib/autotest/notify-osd.rb",
@@ -43,8 +44,11 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<ZenTest>, [">= 4.0.0"])
     else
+      s.add_dependency(%q<ZenTest>, [">= 4.0.0"])
     end
   else
+    s.add_dependency(%q<ZenTest>, [">= 4.0.0"])
   end
 end

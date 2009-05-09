@@ -10,6 +10,7 @@ begin
     gem.homepage = "http://github.com/sentientmonkey/autotest-notifyosd"
     gem.authors = ["Scott Windsor"]
     gem.executables = ['enable-autotest-notifyosd']
+    gem.add_dependency('ZenTest', '>= 4.0.0')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 

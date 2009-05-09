@@ -1,6 +1,18 @@
 = autotest-notifyosd
 
-Description goes here.
+Provides autotest notifications for 
+https://wiki.ubuntu.com/NotifyOSD
+
+== Requirements
+
+* ZenTest (to provide core autotest functionality)
+* Ubuntu 9.04 or later (or notifyosd ported to another linux system)
+* libnotify (can be install via apt-get)
+
+== Install
+
+* sudo gem install sentientmonkey-autotest-notifyosd
+* enable-autotest-notifyosd
 
 == Copyright
 

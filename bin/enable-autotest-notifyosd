@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "require 'autotest-notifyosd'\ninclude Autotest::NotifyOsd" >> ~/.autotest

@@ -5,10 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "autotest-notifyosd"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{Provides autotest notifications for Ubuntu's NotifyOSD}
     gem.email = "swindsor@gmail.com"
     gem.homepage = "http://github.com/sentientmonkey/autotest-notifyosd"
     gem.authors = ["Scott Windsor"]
+    gem.executables = ['enable-autotest-notifyosd']
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 

@@ -1,0 +1,7 @@
+= autotest-notifyosd
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Scott Windsor. See LICENSE for details.

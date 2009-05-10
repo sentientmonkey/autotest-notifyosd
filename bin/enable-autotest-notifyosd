@@ -2,7 +2,7 @@
 
 File.open(File.expand_path('~/.autotest'), 'a') do |f| 
   f.puts <<-EOF
-require 'sentientmonkey-autotest-notifyosd'
-include Autotest::NotifyOsd
+require 'autotest-notifyosd'
+include Autotest::NotifyOSD
 EOF
 end

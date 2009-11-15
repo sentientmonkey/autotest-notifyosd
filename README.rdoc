@@ -10,7 +10,7 @@ https://wiki.ubuntu.com/NotifyOSD
 * libnotify (can be install via apt-get)
 
 == Install
-* sudo gem install --source=http://gemcutter.org autotest-notifyosd
+* sudo gem install autotest-notifyosd --source http://gemcutter.org
 * enable-autotest-notifyosd
 
 Note: --source=http://gemcutter.org not required if you already have gemcutter listed as a source
